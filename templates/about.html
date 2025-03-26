@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %} About {% endblock %}
+
+{% block main %}
+
+<div class="container about-section">
+    <h2>About TriviaFlick</h2>
+    <p>🎬 <span class="highlight">Welcome to TriviaFlick</span> – the ultimate challenge for movie lovers and trivia enthusiasts! Think you’re a true cinephile? Put your movie knowledge to the test as you decode cryptic hints, and guess the right movie.</p>
+
+    <p>The fewer hints you need, the more <span class="highlight">points</span> you score – and only the sharpest minds will climb their way to the top of the leaderboard. Compete against friends or test your skills solo.</span>?</p>
+
+    <h2>✨ How It Works</h2>
+    <ul>
+        <li>Each round starts with a <span class="highlight">complex hint</span> about a movie.</li>
+        <li>Not sure? Ask question about movie to guess it – but remember, fewer questions mean <span class="highlight">more points</span>!</li>
+        <li>Submit your guess and rack up points to dominate the leaderboard.</li>
+    </ul>
+
+    <div class="point-system">
+        <h2>🏆 Point System</h2>
+        <ul>
+            <li><span class="highlight">Guessed by just provided Hint:</span> 100 points</li>
+            <li><span class="highlight">1 Question asked:</span> 90 points</li>
+            <li><span class="highlight">2 Question asked:</span> 80 points</li>
+            <li><span class="highlight">9 or 9+ question asked:</span> 10 points</li>
+        </ul>
+    </div>
+
+    <p>The faster you crack the code, the higher you score. Are you ready to challenge yourself, outwit others, and secure your spot on the leaderboard?</p>
+</div>
+{% endblock %}

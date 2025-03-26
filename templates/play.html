@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %} Trivia Flicks {% endblock %}
+
+{% block main %}
+<main class="container play-main">
+    <div>
+        <h4 class="highlight">You have asked {{ question }} questions.</h4>
+
+        </div>
+        <div>
+            <h4 class="highlight" >You have {{ guess }} guesses remaining.</h4>
+
+            </div>
+    <div class="hint">
+        <h1> {{ hint }}</h1>
+    </div>
+    <form method="POST">
+        <div class="input-field-play input-group ">
+            <input type="text" class="custom-input"  name="userInput" placeholder="Enter your Question or guess" autocomplete=OFF>
+        </div>
+        <br>
+        <button class= "btn btn-primary" type="submit" name="action" value="ask">Ask</button>
+        <button class= "btn btn-primary" type="submit" name="action" value="guess">Guess</button>
+    </form>
+
+
+</main>
+{% endblock %}
+
+

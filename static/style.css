@@ -1,0 +1,98 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+    background-color: #D7FBE6;
+    font-family: 'Inter', sans-serif;
+    font: black;
+}
+
+.main-home{
+    margin: 3em 3.7em;
+    display: flex;
+    justify-content: center;
+}
+.header-right{
+
+    display: block;
+    justify-content: right;
+    margin-right: 2.5em;
+}
+
+.header-left{
+    display: block;
+    justify-content: left;
+    margin-left: 2.5em;
+}
+
+.navbar{
+    max-width: 1990px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+
+.hero-title{
+    font-weight: bolder;
+}
+
+
+.hero-section{
+    margin: auto;
+    margin-top: 4.5em;
+    padding: 10px;
+    gap: 10em;
+
+    .text{
+        padding-top: 2em;
+    }
+
+
+    div .illustration{
+        max-width: 400px;
+        max-height: 400px;
+        padding-bottom: 2em;
+    }
+}
+
+
+.btn{
+    background-color: #12267D;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: black;
+  }
+
+
+.play-main, .congrats-main{
+
+    margin: auto;
+    margin-top: 2em;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.input-field-play {
+    margin-top: 3em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+   }
+
+.highlight {
+    color: #12267D;
+    font-weight: bold;
+}
+
+.custom-input{
+    padding: 1em 1em;
+    background-color: transparent;
+    border: 3px solid #12267D;
+    border-radius: 3px;
+}

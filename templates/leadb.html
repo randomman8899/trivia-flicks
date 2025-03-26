@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %} LeaderBoard {% endblock %}
+
+{% block main %}
+<main class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-start">User</th>
+                <th class="text-end">Total Score</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            {% for user in users %}
+
+            <tr>
+                <td class="text-start">{{ user.username}}</td>
+                <td class="text-end">{{ user.score }}  </td>
+            </tr>
+
+            {% endfor %}
+        </tbody>
+    </table>
+</main>
+
+{% endblock %}

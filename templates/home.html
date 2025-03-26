@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block main %}
+<main class="main-home hero-section container">
+    <div class="text">
+        <h1 class="hero-title">Lights, Camera <br> Guess!</h1>
+        <p>
+            Think you know your movies? <br>
+            From blockbuster hits to hidden gems, every round brings a <br>
+            new adventure. But beware—only the sharpest minds <br>
+            and quickest guesses make it to the top of the leaderboard. <br>
+            Ready to take the stage? Lights, camera… GUESS!
+        </p>
+
+        <form method='POST'>
+            <button class="btn btn-primary" type="submit"> PLAY NOW!!</button>
+        </form>
+    </div>
+
+    <div >
+        <img src="./static/heroVector.gif" class="illustration" alt="A coffee cup and popcorns">
+    </div>
+</main>
+{% endblock %}

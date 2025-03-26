@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %} Trivia Flicks {% endblock %}
+
+{% block main %}
+<main class="container congrats-main" style="margin-top:3em;">
+
+    <div>
+        <h1> Congratulationn!! YOU GUESSED IT!!</h1>
+    </div>
+
+    <div>
+        <h4 class="highlight">You have asked {{ question }} questions. to guess it</h4>
+        <h4 class="highlight">Score {{ score }}. Check leaderboard to see if you made it in there</h4>
+    </div>
+    <div>
+        <p>
+            (Click on Home button in navbar to go back)
+        </p>
+    </div>
+
+</main>
+{% endblock %}
