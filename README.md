@@ -70,16 +70,7 @@ $ pip install -r requirements.txt
 ### **4️⃣ Create an `api.env` File**
 Inside your project folder, create a file named `api.env` and add your API key:
 ```bash
-GEMINI_API_KEY=your_api_key_here
-```
-### **5️⃣ Load Environment Variables**
-Modify your `app.py` to load environment variables from `api.env`:
-```python
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY=your_api_key_here
 ```
 ### **6️⃣ Run the Flask App**
 ```bash
